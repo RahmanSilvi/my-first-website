@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+<style>
+    p{text-align: left; color: blueviolet;}
+
+    #bromin {color: crimson;background-color: bisque}
+
+    .highlight                      
+    {
+        text-align: center ;
+        color: red;
+        
+    }
+    .bold,.boro                
+
+    {
+        font-size: x-large;
+    }
+
+    *{
+        margin: 0;
+        padding: 1;
+        border: 2px salmon;
+
+    }
+
+    a,button{
+        background-color: rgb(109, 109, 230);
+        padding: 20px;
+    }
+
+    
+</style>
+
+</head>
+<body>
+    <h2>Element Selector:</h2>
+    <p>The element selector selects HTML elements based on the element name.   Like: p, div, li, ol, ul, span etc.</p>
+    <p>Example:</p>
+
+    <p>Check the code of this line's style is in the head section. First style inside style tag.</p>
+
+    <h2>Id Selector:</h2>
+    <p>To select an element with a specific id, write a hash (#) character, followed by the id of the element.</p>
+    <p>To select only a specific person like roll no "13"</p>
+    <p>Id name can't start with a number.</p>
+    <p>Id name should be unique so don't use same id name twice in a page.</p>
+    <p>Example:</p>
+
+    <div id="bromin">Check the code of this line's style is in the head section to understand how Id selector works. Second style inside style tag.</div>
+
+    <h2>Class Selector:</h2>
+    <p class="bold">Class selector in CSS is denoted by a dot(.) followed by the class name.</p>
+    <p class="boro">To select a group of element like class 9 er students. </p>
+    <p>Example:</p>
+    
+    <div class="highlight bold">I style this line using class selector. This style is in the head section. 3rd style inside style tag.</div>
+
+    <h2>Universal Selector:</h2>
+    <p>Universal selector is denoted by a asterisk(*)</p>
+    <p>It is used to applies all elements on a webpage. </p>
+    <p>Example:</p>
+
+    <div>4th style in the head section is the example of universal selector, which will be applied all over the page.</div>
+
+    <h2>Grouping Selector:</h2>
+    <p>Select a group of element at a time.</p>
+    <p>Example:</p>
+
+    
+        <a href="#">Click Here</a>
+        <button>Submit</button>
+    
+    <h2>Attribute Selector:</h2>
+
+</body>
+</html>

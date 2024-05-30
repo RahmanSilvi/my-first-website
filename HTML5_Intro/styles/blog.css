@@ -1,0 +1,25 @@
+nav{background-color: #000000;
+    background-size:cover;
+    background-position: 0ric;
+
+
+
+
+
+}
+nav>ul>li>{
+    
+    display: inline;
+    margin: right 10px;
+    color: white;
+    text-decoration: none;
+}
+
+nav>ul>li>a{
+    text-decoration: none;
+    
+}
+
+section{
+    color: blue;
+}

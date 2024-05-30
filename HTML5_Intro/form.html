@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in HTML</title>
+
+    <style>
+        form{background-color: yellow; text-align: center;}
+        .bromin {display: block;}
+    
+    </style>
+    
+    
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <section>
+            <h2>Please fill this form:</h2>
+
+            <form action="">
+                <label class="bromin" for="fname">First Name:</label>
+                <input type="text" placeholder="your name"> 
+
+                <label class="bromin" for="lname">Last Name:</label>
+                <input type="text" placeholder="your last name"> 
+
+                <label class="bromin" for="email">Email:</label>
+                <input type="email" placeholder="your email address"> 
+
+                <label class="bromin" for="phone">Phone_Number:</label>
+                <input type="number" placeholder="your contact"> 
+
+                <p>Select Your Gender:</p>
+
+                <label for="male">Male:</label>
+                <input type="radio" name="gender" value="male">
+
+                <label for="female">Female:</label>
+                <input type="radio" name="gender" value="female">
+
+                <label for="other">Other:</label>
+                <input type="radio" name="gender" value="other">
+
+
+                <fieldset>
+                    <legend>Choose Your Desire Subjects:</legend>
+
+                    <label for="history">I want History</label>
+                    <input type="checkbox" name="subject" id="history" value="History"><br>
+                    
+                    <label for="Science">I want Science</label>
+                    <input type="checkbox" name="subject" id="Science" value="science"> <br>
+                    
+                    <label for="Geography">I want Geography</label>
+                    <input type="checkbox" name="subject" id="Geography" value="Geography"> <br>
+                    
+                    <label for="Social_Science">I want Social Science</label>
+                    <input type="checkbox" name="Subjects" id="Social_Science" value="Social_Science"> <br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Choose Your Country</legend>
+                    <label for="Bangladesh">
+                        <input type="radio" name="country" id="Bangladesh" value="Bangladesh">Bangladesh
+                    </label>
+                    <br>
+                    <label for="China">China
+                        <input type="radio" name="country" id="China" value="China">
+                    </label>
+                    <br>
+
+                    <input type="radio" name="country" id="india" value="india">
+                    <label for="india">India</label>
+                </fieldset>
+<p>label tag er inside e input tag deya jay.</p><br>
+<p>lebel tag e input er age title likhle age name pore checkbox ashbe. </p><br>
+<p>label tag e input tag er por name likhle age checkbox pore name ashbe.</p><br>
+
+
+                <fieldset>
+                    <legend>Special Requirements:</legend>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </fieldset>
+
+                <input type="reset" value="Reset">
+
+                <br><br>
+
+                <input type="submit" value="Submit">
+
+
+
+                
+
+                
+
+
+
+
+
+
+
+
+
+
+
+            </form>
+
+
+
+
+        </section>
+
+    </main>
+
+    <footer></footer>
+</body>
+</html>

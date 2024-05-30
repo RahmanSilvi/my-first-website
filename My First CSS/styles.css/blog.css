@@ -1,0 +1,38 @@
+
+.header{
+    height: 300px;
+    background-color: chartreuse;
+    background-image: url("Me.jpg");
+    background-size:contain;  /* background size nanan vabe kora jay. height, width deya jay abar cover unset ba emn one
+    k by default options ase oi gulou use kora jay*/
+    background-position: center;
+    
+      
+}
+
+
+p{background-color: blanchedalmond; 
+  text-decoration: wavy; 
+  border: 10px;
+  border-radius: 2px;
+  border-style: double;
+  border-color:palevioletred;
+  padding: 10px;
+  box-shadow: 10px 10px 20px brown; /*box shadow deyar jonno margin dite hobe must. box shadow te 3 ta value dite hoy*/
+  margin: 10px;
+}
+li{
+    padding: 10px;
+    text-decoration-line: underline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    color: darkred;
+}
+
+h3{
+    font-size: large;
+    text-align: justify;
+    color: darkgreen;
+     
+}
+ 
